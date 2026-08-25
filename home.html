@@ -695,7 +695,16 @@ nav a:hover:not(.current) {
   import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
 
 
-   = {
+  const firebaseConfig = {
+  apiKey: "AIzaSyB6E1i9qifYKGhMxahGKBL0VDfGHa3QFm8",
+  authDomain: "fafu-collection.firebaseapp.com",
+  projectId: "fafu-collection",
+  storageBucket: "fafu-collection.firebasestorage.app",
+  messagingSenderId: "845899181216",
+  appId: "1:845899181216:web:b05ff261b51d8327cb6dc5",
+  measurementId: "G-WK24FLJM52"
+};
+
   
   const app = initializeApp(firebaseConfig);
   const database = getDatabase(app);
